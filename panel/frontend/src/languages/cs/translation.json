@@ -1,0 +1,462 @@
+{
+    "sidebar": {
+        "dashboard": "Přehled",
+        "customer": {
+            "title": "Zákazník",
+            "users": "Uživatelé",
+            "suspensions": "Suspendace",
+            "roles": "Role",
+            "permissions": "Oprávnění",
+            "sessions": "Relace"
+        },
+        "product": {
+            "title": "Produkt",
+            "listings": "Seznamy",
+            "games": "Hry",
+            "game_types": "Typy her",
+            "keys": "Klíče"
+        },
+        "other": {
+            "title": "Ostatní",
+            "settings": "Nastavení",
+            "logs": "Logy"
+        }
+    },
+
+    "form": {
+        "label": {
+            "description": "Popis",
+            "name": "Jméno",
+            "username": "Uživatelské jméno",
+            "email": "Email",
+            "password": "Heslo",
+            "confirm_password": "Potvrdit heslo",
+            "HWID": "HWID",
+            "subscription": "Předplatné",
+            "role": "Role",
+            "roles": "Role",
+            "game": "Hra",
+            "games": "Hry",
+            "game_type": "Typ hry",
+            "color": "Barva",
+            "status": "Stav",
+            "key": "Klíč",
+            "number_of_keys": "Počet klíčů",
+            "suspension": "Suspendace",
+            "reason": "Důvod"
+        },
+
+        "placeholder": {
+            "auth": {
+                "username": "Zadejte své uživatelské jméno...",
+                "password": "Zadejte své heslo...",
+                "confirm_password": "Potvrďte své heslo..."
+            },
+            
+            "username": "Zadejte uživatelské jméno...",
+            "email": "Zadejte email...",
+            "password": "Zadejte heslo...",
+            "HWID": "Zadejte HWID...",
+            "date_range": "Vyberte rozsah data",
+            "role_name": "Zadejte název role...",
+            "role_description": "Zadejte popis role...",
+            "role_select": "Vyberte roli...",
+            "game": "Vyberte hru...",
+            "game_name": "Zadejte název hry...",
+            "game_select": "Vyberte hru...",
+            "game_type": "Vyberte typ hry...",
+            "game_type_name": "Zadejte název typu hry...",
+            "game_type_description": "Zadejte popis typu hry...",
+            "game_type_select": "Vyberte typ hry...",
+            "color_picker": "Vyberte barvu",
+            "custom_hex": "Vlastní HEX",
+            "status": "Vyberte stav...",
+            "permission_name": "Zadejte název oprávnění...",
+            "permission_description": "Zadejte popis oprávnění...",
+            "reason": "Zadejte důvod...",
+
+            "search": {
+                "search": "Hledat...",
+                "users": "Hledat uživatele...",
+                "suspensions": "Hledat suspendaci...",
+                "sessions": "Hledat relaci...",
+                "keys": "Hledat klíč...",
+                "logs": "Hledat log..."
+            },
+
+            "loading": "Načítání..."
+        },
+
+        "error": {
+            "required": {
+                "length": {
+                    "name_max": "Jméno nesmí přesáhnout {{length}} znaků",
+                    "username_min": "Uživatelské jméno musí mít alespoň {{length}} znaků",
+                    "username_max": "Uživatelské jméno nesmí přesáhnout {{length}} znaků",
+                    "password_min": "Heslo musí mít alespoň {{length}} znaků",
+                    "password_max": "Heslo nesmí přesáhnout {{length}} znaků",
+                    "description_max": "Popis nesmí přesáhnout {{length}} znaků",
+                    "color_max": "Barva nesmí přesáhnout {{length}} znaků",
+                    "HWID_max": "HWID nesmí přesáhnout {{length}} znaků",
+                    "reason_max": "Důvod nesmí přesáhnout {{length}} znaků"
+                },
+
+                "valid": {
+                    "email": "Email musí být platná emailová adresa",
+                    "color_hex": "Barva musí být v HEX formátu"
+                },
+
+                "text": "Toto pole je povinné",
+                "password_match": "Hesla se musí shodovat"
+            },
+
+            "exists": {
+                "user_name": "Uživatel s tímto uživatelským jménem již existuje",
+                "user_email": "Uživatel s touto emailovou adresou již existuje",
+                "user_HWID": "Uživatel s tímto HWID již existuje",
+                "role_name": "Role s tímto názvem již existuje",
+                "role_color": "Role s touto barvou již existuje",
+                "permission_name": "Oprávnění s tímto názvem již existuje",
+                "game_name": "Hra s tímto názvem již existuje",
+                "game_color": "Hra s touto barvou již existuje",
+                "game_type_name": "Typ hry s tímto názvem již existuje"
+            },
+    
+            "empty": {
+                "user_games": "Nebyla vybrána žádná hra",
+                "user_subscription_without_game": "Nelze mít předplatné bez hry",
+                "user_games_without_subscription": "Nelze mít hru bez předplatného",
+                "games": "Nezbyla žádná hra",
+                "roles": "Nezbyla žádná role"
+            }
+        },
+
+        "auth": {
+            "sign_in": {
+                "title": "Přihlášení",
+                "description": "Zadejte svoje uživatelské jméno a heslo pro přihlášení",
+                "forgot_password": "Zapomenuté heslo?",
+                "remember_me": "Zapamatuj si mě",
+                "button": "Přihlásit se",
+                "switch": "Ještě nemáte účet?",
+                "link": "Vytvořte si ho"
+            },
+    
+            "sign_up": {
+                "title": "Registrace",
+                "description": "Zadejte své informace pro vytvoření účtu",
+                "button": "Zaregistrovat se",
+                "switch": "Již máte účet?",
+                "link": "Přihlašte se"
+            }
+        },
+
+        "user": {
+            "create": {
+                "title": "Vytvořit uživatele",
+                "description": "Zadejte informace o novém uživateli",
+                "random_button": "Náhodný uživatel"
+            },
+
+            "edit": {
+                "title": "Upravit uživatele",
+                "description": "Upravte informace o uživateli",
+                "reset_password": "Resetovat heslo"
+            }
+        },
+
+        "suspension": {
+            "create": {
+                "title": "Vytvořit suspendaci",
+                "description": "Zadejte informace o nové suspendaci"
+            },
+
+            "edit": {
+                "title": "Upravit suspendaci",
+                "description": "Upravte informace o suspendaci"
+            }
+        },
+
+        "role": {
+            "create": {
+                "title": "Vytvořit roli",
+                "description": "Zadejte informace o nové roli"
+            },
+            
+            "edit": {
+                "title": "Upravit roli",
+                "description": "Upravte informace o roli"
+            }
+        },
+
+        "permission": {
+            "create": {
+                "title": "Vytvořit oprávnění",
+                "description": "Zadejte informace o novém oprávnění"
+            },
+
+            "edit": {
+                "title": "Upravit oprávnění",
+                "description": "Upravte informace o oprávnění"
+            }
+        },
+
+        "game": {
+            "create": {
+                "title": "Vytvořit hru",
+                "description": "Zadejte informace o nové hře"
+            },
+
+            "edit": {
+                "title": "Upravit hru",
+                "description": "Upravte informace o hře"
+            }
+        },
+
+        "game_type": {
+            "create": {
+                "title": "Vytvořit typ hry",
+                "description": "Zadejte informace o novém typu hry"
+            },
+
+            "edit": {
+                "title": "Upravit typ hry",
+                "description": "Upravte informace o typu hry"
+            }
+        },
+
+        "key": {
+            "create": {
+                "title": "Vytvořit klíč",
+                "description": "Zadejte informace o novém klíči"
+            },
+
+            "edit": {
+                "title": "Upravit klíč",
+                "description": "Upravte informace o klíči"
+            }
+        }
+    },
+
+    "user": {
+        "status": {
+            "active": "Aktivní",
+            "banned": "Zakázaný",
+            "frozen": "Zmrazený",
+            "inactive": "Neaktivní"
+        }
+    },
+
+    "suspension": {
+        "status": {
+            "banned": "Zakázaný",
+            "frozen": "Zmrazený"
+        }
+    },
+
+    "session": {
+        "status": {
+            "connected": "Připojeno",
+            "disconnected": "Odpojeno"
+        }
+    },
+
+    "settings": {
+        "theme": {
+            "title": "Motiv",
+            "light": "Světlý",
+            "dark": "Tmavý",
+            "system": "Automatický",
+            "change": "Změnit motiv"
+        },
+        "language": {
+            "title": "Jazyk",
+            "change": "Změnit jazyk"
+        },
+        "date": {
+            "title": "Datum",
+            "day": "Den",
+            "day_abbr": "D",
+            "days_abbr": "dny",
+            "month": "Měsíc",
+            "month_abbr": "M",
+            "year": "Rok",
+            "year_abbr": "R",
+            "change": "Změnit datum"
+        },
+        "time": {
+            "title": "Čas",
+            "hour": "Hodina",
+            "hour_abbr": "H",
+            "minute": "Minuta",
+            "minute_abbr": "M",
+            "second": "Sekunda",
+            "change": "Změnit čas"
+        },
+        "currency": {
+            "title": "Měna",
+            "euro": "Euro",
+            "dollar": "Americký dolar",
+            "ruple": "Ruský rubl",
+            "yuan": "Čínský jüan",
+            "change": "Změnit měnu"
+        }
+    },
+
+    "logs": {
+        "level": {
+            "INFO": "INFO",
+            "ERROR": "CHYBA",
+            "WARNING": "VAROVÁNÍ",
+            "DEBUG": "DEBUG"
+        },
+
+        "method": {
+            "GET": "GET",
+            "POST": "POST",
+            "PUT": "PUT",
+            "DELETE": "DELETE",
+            "PATCH": "PATCH"
+        }
+    },
+
+    "component": {
+        "table": {
+            "select_all": "Vybrat vše",
+            "select_row": "Vybrat řádek",
+            "view": "Zobrazit",
+            "sort_by": "Seřadit podle",
+            "copy": "Kopírovat",
+            "previous": "Předchozí",
+            "next": "Další",
+
+            "column":{
+                "created_at": "Vytvořeno",
+                "last_edit": "Poslední úprava"
+            },
+
+            "user": {
+                "header": {
+                    "set_status": "Nastavit stav",
+                    "add_game": "Přidat hru",
+                    "add_role": "Přidat roli"
+                },
+
+                "actions": {
+                    "set_status": "Změnit stav",
+                    "error":{
+                        "set_status": "Nastala chyba při změně stavu uživatele",
+                        "self_delete": "Uživatel nemůže smazat sám sebe"
+                    }
+                },
+
+                "column": {
+                    "register_date": "Datum registrace",
+                    "register_IP": "IP registrace",
+                    "subscription_start": "Předplatné od",
+                    "subscription_end": "Předplatné do",
+                    "time_left": "Zbývající čas",
+                    "games": "Hry",
+                    "last_login": "Poslední přihlášení",
+                    "last_IP": "Poslední IP",
+                    "roles": "Role"
+                }
+            },
+
+            "suspension": {
+                "column": {
+                    "suspension_start": "Suspendace od",
+                    "suspension_end": "Suspendace do",
+                    "suspended_by": "Suspendován",
+                    "is_active": "Aktivní"
+                }
+            },
+
+            "key": {
+                "header": {
+                    "set_role": "Nastavit roli",
+                    "set_game": "Nastavit hru"
+                },
+
+                "column": {
+                    "game": "Hra",
+                    "game_type": "Typ hry",
+                    "status": "Stav"
+                }
+            },
+
+            "log": {
+                "header": {
+                    "level": "Úroveň",
+                    "method": "Metoda"
+                },
+
+                "column": {
+                    "endpoint": "Koncový bod",
+                    "message": "Zpráva"
+                }
+            }
+        },
+
+        "DateRangePicker": {
+            "empty": "Vyberte rozsah data",
+
+            "presets": {
+                "today": "Dnes",
+                "this_week": "Tento týden",
+                "this_month": "Tento měsíc",
+                "lifetime": "Navždy",
+                "remove": "Odstranit"
+            }
+        },
+        
+        "HoverUserCard": {
+            "member_since": "Členem od",
+            "view_profile": "Zobrazit profil"
+        },
+
+        "PasswordGenerator": {
+            "avoid_ambiguous": "Vyhnout se nejasným znakům"
+        }
+    },
+
+    "error": {
+        "page_not_found": {
+            "title": "Stránka nenalezena",
+            "description": "Stránka, kterou hledáte, nebyla nalezena"
+        },
+        "something_went_wrong": "Něco se pokazilo",
+        "item_not_found": "Položka nenalezena",
+        "user_not_found": "Uživatel nenalezen",
+        "no_results": "Žádné výsledky",
+        "expired": "Vypršelo",
+        "failed_to_copy": "Kopírování se nezdařilo"
+    },
+
+    "message": {
+        "copied_to_clipboard": "zkopírováno do schránky"
+    },
+
+    "button": {
+        "profile": "Profil",
+        "open": "Otevřít",
+        "remove": "Odstranit",
+        "apply": "Použít",
+        "save_changes": "Uložit změny",
+        "cancel": "Zrušit",
+        "edit": "Upravit",
+        "delete": "Smazat",
+        "reset": "Resetovat",
+        "return": "Zpět",
+        "create": "Vytvořit",
+        "create_new": "Přidat nový",
+        "sign_out": "Odhlásit se",
+        "generate_password": "Vygenerovat heslo"
+    },
+
+    "common": {
+        "home": "Domů",
+        "from": "Od",
+        "to": "Do"
+    }
+}

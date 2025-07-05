@@ -1,0 +1,115 @@
+{
+  "users": [
+    {
+      "username": "Coy",
+      "email": "coy@ombra.zone",
+      "password": "password",
+      "registerIP": "127.0.0.1",
+      "lastIP": "127.0.0.1",
+      "roles": ["Admin"]
+    }
+  ],
+  "permissions": [
+    {
+      "name": "create_user",
+      "description": "Permission to create a new user"
+    },
+    {
+      "name": "delete_user",
+      "description": "Permission to delete a user"
+    },
+    {
+      "name": "update_user",
+      "description": "Permission to update a user"
+    },
+    {
+      "name": "view_user",
+      "description": "Permission to view user details"
+    }
+  ],
+  "roles": [
+    {
+      "name": "Admin",
+      "description": "The most powerful role",
+      "color": "#B11612",
+      "permissions": ["create_user", "delete_user", "update_user", "view_user"]
+    },
+    {
+      "name": "Member",
+      "description": "The default role",
+      "color": "#42B246",
+      "permissions": ["view_user"]
+    }
+  ],
+  "gameTypes": [
+    {
+      "name": "default",
+      "description": "Default game type",
+      "color": "#CCCCCC"
+    },
+    {
+      "name": "vip",
+      "description": "VIP game type with exclusive features",
+      "color": "#FFC0CB"
+    },
+    {
+      "name": "beta",
+      "description": "Beta game type for testing new features",
+      "color": "#00BFFF"
+    }
+  ],
+  "games": [
+    {
+      "name": "CS2",
+      "gameType": "default",
+      "color": "#D17B2A"
+    },
+    {
+      "name": "Fortnite",
+      "gameType": "default",
+      "color": "#0080FF"
+    }
+  ],
+  "listings": [
+    {
+      "name": "CS2",
+      "game": "CS2",
+      "description": "Access to the CS2 cheat",
+      "copies": 100,
+      "price": 30.0,
+      "roles": ["Member", "Admin"],
+      "isActive": true,
+      "startDate": "2024-08-01T00:00:00",
+      "endDate": "2024-12-31T23:59:59"
+    },
+    {
+      "name": "Fortnite Subscription",
+      "game": "Fortnite",
+      "description": "Access to the Fortnite cheat",
+      "copies": 200,
+      "price": 30.0,
+      "roles": ["Member", "Admin"],
+      "isActive": true,
+      "startDate": "2024-08-01T00:00:00",
+      "endDate": "2024-12-31T23:59:59"
+    }
+  ],
+  "discounts": [
+    {
+      "name": "CS2 Launch Discount",
+      "intendedListings": ["CS2"],
+      "startDate": "2024-08-01T00:00:00",
+      "endDate": "2024-08-31T23:59:59",
+      "discount": 0.2,
+      "isActive": true
+    },
+    {
+      "name": "Fortnite Launch Discount",
+      "intendedListings": ["Fortnite Subscription"],
+      "startDate": "2024-08-01T00:00:00",
+      "endDate": "2024-08-31T23:59:59",
+      "discount": 0.2,
+      "isActive": true
+    }
+  ]
+}

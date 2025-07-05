@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="main">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ombra panel</title>
+
+    <!-- Inline CSS for loading spinner -->
+    <style>
+      /* Styles to make the loader look like ClipLoader */
+      #initial-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        z-index: 9999;
+      }
+
+      .clip-loader {
+        width: 50px; /* Size of the loader */
+        height: 50px;
+        border: 4px solid rgba(0, 0, 0, 0.1); /* Light border */
+        border-top-color: #123abc; /* Darker top border */
+        border-radius: 50%; /* Circle shape */
+        animation: spin 0.75s linear infinite; /* Spin animation */
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg); /* Full rotation */
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Initial loader that will show until React is ready -->
+    <div id="initial-loader">
+      <div class="clip-loader"></div>
+      <!-- Loader with similar look to ClipLoader -->
+    </div>
+
+    <!-- React application root -->
+    <div id="root"></div>
+
+    <!-- Vite loads the main entry point -->
+    <script type="module" src="./src/main.tsx"></script>
+  </body>
+</html>

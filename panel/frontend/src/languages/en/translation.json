@@ -1,0 +1,462 @@
+{
+    "sidebar": {
+        "dashboard": "Dashboard",
+        "customer": {
+            "title": "Customer",
+            "users": "Users",
+            "suspensions": "Suspensions",
+            "roles": "Roles",
+            "permissions": "Permissions",
+            "sessions": "Sessions"
+        },
+        "product": {
+            "title": "Product",
+            "listings": "Listings",
+            "games": "Games",
+            "game_types": "Game Types",
+            "keys": "Keys"
+        },
+        "other": {
+            "title": "Other",
+            "settings": "Settings",
+            "logs": "Logs"
+        }
+    },
+
+    "form": {
+        "label": {
+            "description": "Description",
+            "name": "Name",
+            "username": "Username",
+            "email": "Email",
+            "password": "Password",
+            "confirm_password": "Confirm Password",
+            "HWID": "HWID",
+            "subscription": "Subscription",
+            "role": "Role",
+            "roles": "Roles",
+            "game": "Game",
+            "games": "Games",
+            "game_type": "Game Type",
+            "color": "Color",
+            "status": "Status",
+            "key": "Key",
+            "number_of_keys": "Number of Keys",
+            "suspension": "Suspension",
+            "reason": "Reason"
+        },
+
+        "placeholder": {
+            "auth": {
+                "username": "Enter your username...",
+                "password": "Enter your password...",
+                "confirm_password": "Confirm your password..."
+            },
+            
+            "username": "Enter username...",
+            "email": "Enter email...",
+            "password": "Enter password...",
+            "HWID": "Enter HWID...",
+            "date_range": "Select date range",
+            "role_name": "Enter role name...",
+            "role_description": "Enter role description...",
+            "role_select": "Select role...",
+            "game": "Select game...",
+            "game_name": "Enter game name...",
+            "game_select": "Select game...",
+            "game_type": "Select game type...",
+            "game_type_name": "Enter game type name...",
+            "game_type_description": "Enter game type description...",
+            "game_type_select": "Select game type...",
+            "color_picker": "Select color",
+            "custom_hex": "Custom HEX",
+            "status": "Select status...",
+            "permission_name": "Enter permission name...",
+            "permission_description": "Enter permission description...",
+            "reason": "Enter reason...",
+
+            "search": {
+                "search": "Search...",
+                "users": "Search users...",
+                "suspensions": "Search suspension...",
+                "sessions": "Search session...",
+                "keys": "Search key...",
+                "logs": "Search log..."
+            },
+
+            "loading": "Loading..."
+        },
+
+        "error": {
+            "required": {
+                "length": {
+                    "name_max": "Name must not exceed {{length}} characters",
+                    "username_min": "Username must be at least {{length}} characters",
+                    "username_max": "Username must not exceed {{length}} characters",
+                    "password_min": "Password must be at least {{length}} characters",
+                    "password_max": "Password must not exceed {{length}} characters",
+                    "description_max": "Description must not exceed {{length}} characters",
+                    "color_max": "Color must not exceed {{length}} characters",
+                    "HWID_max": "HWID must not exceed {{length}} characters",
+                    "reason_max": "Reason must not exceed {{length}} characters"
+                },
+
+                "valid": {
+                    "email": "Email must be a valid email address",
+                    "color_hex": "Color must be in HEX format"
+                },
+
+                "text": "This field is required",
+                "password_match": "Passwords must match"
+            },
+
+            "exists": {
+                "user_name": "A user with this username already exists",
+                "user_email": "A user with this email address already exists",
+                "user_HWID": "A user with this HWID already exists",
+                "role_name": "A role with this name already exists",
+                "role_color": "A role with this color already exists",
+                "permission_name": "A permission with this name already exists",
+                "game_name": "A game with this name already exists",
+                "game_color": "A game with this color already exists",
+                "game_type_name": "A game type with this name already exists"
+            },
+    
+            "empty": {
+                "user_games": "No game selected",
+                "user_subscription_without_game": "Cannot have a subscription without a game",
+                "user_games_without_subscription": "Cannot have a game without a subscription",
+                "games": "No game left",
+                "roles": "No role left"
+            }
+        },
+
+        "auth": {
+            "sign_in": {
+                "title": "Sign In",
+                "description": "Enter your username and password to sign in",
+                "forgot_password": "Forgot password?",
+                "remember_me": "Remember me",
+                "button": "Sign In",
+                "switch": "Don't have an account?",
+                "link": "Create one"
+            },
+    
+            "sign_up": {
+                "title": "Sign Up",
+                "description": "Enter your information to create an account",
+                "button": "Sign Up",
+                "switch": "Already have an account?",
+                "link": "Sign in"
+            }
+        },
+
+        "user": {
+            "create": {
+                "title": "Create User",
+                "description": "Enter information about the new user",
+                "random_button": "Random User"
+            },
+
+            "edit": {
+                "title": "Edit User",
+                "description": "Edit user information",
+                "reset_password": "Reset Password"
+            }
+        },
+
+        "suspension": {
+            "create": {
+                "title": "Create Suspension",
+                "description": "Enter information about the new suspension"
+            },
+
+            "edit": {
+                "title": "Edit Suspension",
+                "description": "Edit suspension information"
+            }
+        },
+
+        "role": {
+            "create": {
+                "title": "Create Role",
+                "description": "Enter information about the new role"
+            },
+            
+            "edit": {
+                "title": "Edit Role",
+                "description": "Edit role information"
+            }
+        },
+
+        "permission": {
+            "create": {
+                "title": "Create Permission",
+                "description": "Enter information about the new permission"
+            },
+
+            "edit": {
+                "title": "Edit Permission",
+                "description": "Edit permission information"
+            }
+        },
+
+        "game": {
+            "create": {
+                "title": "Create Game",
+                "description": "Enter information about the new game"
+            },
+
+            "edit": {
+                "title": "Edit Game",
+                "description": "Edit game information"
+            }
+        },
+
+        "game_type": {
+            "create": {
+                "title": "Create Game Type",
+                "description": "Enter information about the new game type"
+            },
+
+            "edit": {
+                "title": "Edit Game Type",
+                "description": "Edit game type information"
+            }
+        },
+
+        "key": {
+            "create": {
+                "title": "Create Key",
+                "description": "Enter information about the new key"
+            },
+
+            "edit": {
+                "title": "Edit Key",
+                "description": "Edit key information"
+            }
+        }
+    },
+
+    "user": {
+        "status": {
+            "active": "Active",
+            "banned": "Banned",
+            "frozen": "Frozen",
+            "inactive": "Inactive"
+        }
+    },
+
+    "suspension": {
+        "status": {
+            "banned": "Banned",
+            "frozen": "Frozen"
+        }
+    },
+
+    "session": {
+        "status": {
+            "connected": "Connected",
+            "disconnected": "Disconnected"
+        }
+    },
+
+    "settings": {
+        "theme": {
+            "title": "Theme",
+            "light": "Light",
+            "dark": "Dark",
+            "system": "Automatic",
+            "change": "Change Theme"
+        },
+        "language": {
+            "title": "Language",
+            "change": "Change Language"
+        },
+        "date": {
+            "title": "Date",
+            "day": "Day",
+            "day_abbr": "D",
+            "days_abbr": "days",
+            "month": "Month",
+            "month_abbr": "M",
+            "year": "Year",
+            "year_abbr": "Y",
+            "change": "Change Date"
+        },
+        "time": {
+            "title": "Time",
+            "hour": "Hour",
+            "hour_abbr": "H",
+            "minute": "Minute",
+            "minute_abbr": "M",
+            "second": "Second",
+            "change": "Change Time"
+        },
+        "currency": {
+            "title": "Currency",
+            "euro": "Euro",
+            "dollar": "US Dollar",
+            "ruple": "Russian Ruble",
+            "yuan": "Chinese Yuan",
+            "change": "Change Currency"
+        }
+    },
+
+    "logs": {
+        "level": {
+            "INFO": "INFO",
+            "ERROR": "ERROR",
+            "WARNING": "WARNING",
+            "DEBUG": "DEBUG"
+        },
+
+        "method": {
+            "GET": "GET",
+            "POST": "POST",
+            "PUT": "PUT",
+            "DELETE": "DELETE",
+            "PATCH": "PATCH"
+        }
+    },
+
+    "component": {
+        "table": {
+            "select_all": "Select All",
+            "select_row": "Select Row",
+            "view": "View",
+            "sort_by": "Sort By",
+            "copy": "Copy",
+            "previous": "Previous",
+            "next": "Next",
+
+            "column":{
+                "created_at": "Created At",
+                "last_edit": "Last Edit"
+            },
+
+            "user": {
+                "header": {
+                    "set_status": "Set Status",
+                    "add_game": "Add Game",
+                    "add_role": "Add Role"
+                },
+
+                "actions": {
+                    "set_status": "Change Status",
+                    "error":{
+                        "set_status": "An error occurred while changing the user's status",
+                        "self_delete": "User cannot delete themselves"
+                    }
+                },
+
+                "column": {
+                    "register_date": "Register Date",
+                    "register_IP": "Register IP",
+                    "subscription_start": "Subscription From",
+                    "subscription_end": "Subscription To",
+                    "time_left": "Time Left",
+                    "games": "Games",
+                    "last_login": "Last Login",
+                    "last_IP": "Last IP",
+                    "roles": "Roles"
+                }
+            },
+
+            "suspension": {
+                "column": {
+                    "suspension_start": "Suspension From",
+                    "suspension_end": "Suspension To",
+                    "suspended_by": "Suspended By",
+                    "is_active": "Active"
+                }
+            },
+
+            "key": {
+                "header": {
+                    "set_role": "Set Role",
+                    "set_game": "Set Game"
+                },
+
+                "column": {
+                    "game": "Game",
+                    "game_type": "Game Type",
+                    "status": "Status"
+                }
+            },
+
+            "log": {
+                "header": {
+                    "level": "Level",
+                    "method": "Method"
+                },
+
+                "column": {
+                    "endpoint": "Endpoint",
+                    "message": "Message"
+                }
+            }
+        },
+
+        "DateRangePicker": {
+            "empty": "Select date range",
+
+            "presets": {
+                "today": "Today",
+                "this_week": "This Week",
+                "this_month": "This Month",
+                "lifetime": "Lifetime",
+                "remove": "Remove"
+            }
+        },
+        
+        "HoverUserCard": {
+            "member_since": "Member Since",
+            "view_profile": "View Profile"
+        },
+
+        "PasswordGenerator": {
+            "avoid_ambiguous": "Avoid ambiguous characters"
+        }
+    },
+
+    "error": {
+        "page_not_found": {
+            "title": "Page Not Found",
+            "description": "The page you are looking for was not found"
+        },
+        "something_went_wrong": "Something went wrong",
+        "item_not_found": "Item not found",
+        "user_not_found": "User not found",
+        "no_results": "No results",
+        "expired": "Expired",
+        "failed_to_copy": "Failed to copy"
+    },
+
+    "message": {
+        "copied_to_clipboard": "Copied to clipboard"
+    },
+
+    "button": {
+        "profile": "Profile",
+        "open": "Open",
+        "remove": "Remove",
+        "apply": "Apply",
+        "save_changes": "Save Changes",
+        "cancel": "Cancel",
+        "edit": "Edit",
+        "delete": "Delete",
+        "reset": "Reset",
+        "return": "Return",
+        "create": "Create",
+        "create_new": "Create New",
+        "sign_out": "Sign Out",
+        "generate_password": "Generate Password"
+    },
+
+    "common": {
+        "home": "Home",
+        "from": "From",
+        "to": "To"
+    }
+}

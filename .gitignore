@@ -1,0 +1,61 @@
+#################
+# Python
+#################
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.venv
+.python-version
+# Poetry/uv/pyenv
+.uv/
+.pvm/
+.pyenv/
+# Lock files
+poetry.lock
+uv.lock
+pip
+install
+pyproject.toml
+# Test/coverage
+coverage/
+
+#################
+# Node/Frontend
+#################
+node_modules/
+.pnp
+.pnp.js
+# Build outputs
+build/
+dist/
+# Vite/React
+*.log
+
+#################
+# Editor/OS
+#################
+.DS_Store
+.vscode/
+.vscode
+*.swp
+*.swo
+
+#################
+# Environment/config
+#################
+.env*
+
+#################
+# Logs
+#################
+logs/
+*.log
+
+#################
+# SQLite (keep database.sqlite, ignore WAL/shm)
+#################
+*.sqlite-wal
+*.sqlite-shm
+# DO NOT ignore database.sqlite
+!database.sqlite
