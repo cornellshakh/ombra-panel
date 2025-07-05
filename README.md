@@ -1,6 +1,7 @@
 #  User/Admin Panel
 
 ## Setup
+Demo login credentials: user:password
 
 ### Prerequisites
 
