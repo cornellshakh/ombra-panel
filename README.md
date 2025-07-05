@@ -1,7 +1,7 @@
 #  User/Admin Panel
+Demo login is **user:password**
 
 ## Setup
-Demo credentials - **user:password**
 
 ### Prerequisites
 
